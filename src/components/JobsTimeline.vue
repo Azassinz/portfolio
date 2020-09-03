@@ -2,7 +2,7 @@
   <v-col cols="11" class="pa-0 my-3" style="background-color: white;">
     <v-row no-gutters>
       <v-col>
-        <h1 class="text-center">Empleos</h1>
+        <h1 class="text-center">Laboral</h1>
       </v-col>
     </v-row>
     <v-card-text class="pa-0">

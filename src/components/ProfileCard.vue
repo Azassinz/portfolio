@@ -24,7 +24,7 @@
                 elevation="0"
                 color="transparent"
                 width="100%"
-                href="https://cit-its.org/"
+                href="https://www.blog.cit-its.org/autores/David-L%C3%B3pez.html"
               >
                 <v-icon color="black">mdi-web</v-icon>
               </v-btn>

@@ -17,7 +17,7 @@
             </v-container>
           </v-col>
           <v-col cols="12" sm="8" xl="9" class="d-flex flex-column pa-0">
-            <HelloWorld />
+            <expertise-areas />
             <projects-cards />
           </v-col>
         </v-row>
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import ExpertiseAreas from "./components/ExpertiseAreas.vue";
 import ProfileCard from "./components/ProfileCard.vue";
 import AboutMe from "./components/AboutMe.vue";
 import ProjectsCards from "./components/ProjectsCards.vue";
@@ -37,7 +37,7 @@ export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    ExpertiseAreas,
     ProfileCard,
     AboutMe,
     ProjectsCards,

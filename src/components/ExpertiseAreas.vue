@@ -3,7 +3,7 @@
     <v-row class="text-center">
       <v-col class="mb-5" cols="12">
         <h2 class="headline font-weight-bold mb-3" style="color: white;">
-          Áreas de especilización
+          Áreas de especialización
         </h2>
 
         <v-container>
@@ -11,17 +11,19 @@
             <v-col v-for="(item, i) in items" :key="i" cols="12" lg="6" class="d-flex">
               <!-- <v-card :color="item.color" dark> -->
                 <v-row justify="center">
-                  <v-col cols="12">
+                  <v-col cols="12" order="1" order-lg="2" order-xl="1">
                     <h1 class="headline white--text" v-text="item.title"></h1>
                   </v-col>
 
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="6" order="2" order-lg="3" order-xl="2">
                     <v-card-subtitle class="white--text" v-text="item.artist"></v-card-subtitle>
                   </v-col>
 
-                  <v-avatar class="ma-3 align-self-center" min-width="200" width="200" height="140" tile>
-                    <v-img :src="item.src"></v-img>
-                  </v-avatar>
+                  <v-col cols="12" lg="6" order="3" order-lg="1" order-xl="2">
+                    <v-avatar class="ma-3 align-self-center" min-width="200" width="200" height="140" tile>
+                      <v-img :src="item.src"></v-img>
+                    </v-avatar>
+                  </v-col>
                 </v-row>
               <!-- </v-card> -->
             </v-col>
@@ -34,7 +36,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "ExpertiseAreas",
 
   data: () => ({
     items: [
